@@ -1,0 +1,264 @@
+body{
+    background-color: rgba(68, 68, 68, 0.308);
+}
+
+
+.classe{
+    position: absolute;
+    width: 150px;
+    height: 320px;
+    margin: 120px 900px;
+    border-radius: 10px;
+    border: 20px solid #333;
+    background-color: #333;
+}
+
+#botao{
+    position: absolute;
+    background-color: red;
+    border-radius: 10px;
+    transition: 200ms;
+    color: white;
+    margin: 5px 5px;
+    border-radius: 10px;
+    border: 2px solid red;
+    width: 30px;
+    height: 50px;
+}
+
+#imagem{
+    position: absolute;
+    visibility: visible;
+    height: 500px;
+    width: 750px;
+    margin: 10px 10px;
+    border: 5px solid black;
+    z-index: 1;
+}
+
+#botao:hover{
+    transform: scale(1.1);
+    transition: 200ms;
+    box-shadow: 1px 1px 1px 1px
+}
+
+#stylo{
+    visibility: hidden;
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    margin: -30px 120px;
+
+}
+
+#botao1{
+    position: absolute;
+    background-color: gray;
+    border-radius: 10px;
+    transition: 200ms;
+    color: white;
+    margin: 75px 5px;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 40px;
+    height: 40px;
+}
+
+#botao1:hover{
+    transform: scale(1.1);
+    transition: 200ms;
+    box-shadow: 1px 1px 1px 1px
+}
+
+#botao2{
+    position: absolute;
+    background-color: gray;
+    border-radius: 10px;
+    transition: 200ms;
+    color: white;
+    margin: 75px 55px;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 40px;
+    height: 40px;
+}
+
+#botao2:hover{
+    transform: scale(1.1);
+    transition: 200ms;
+    box-shadow: 1px 1px 1px 1px
+}
+
+#botao3{
+    position: absolute;
+    background-color: gray;
+    border-radius: 10px;
+    transition: 200ms;
+    color: white;
+    margin: 75px 105px;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 40px;
+    height: 40px;
+}
+
+#botao3:hover{
+    transform: scale(1.1);
+    transition: 200ms;
+    box-shadow: 1px 1px 1px 1px
+}
+
+#botao4{
+    position: absolute;
+    background-color: gray;
+    border-radius: 10px;
+    transition: 200ms;
+    color: white;
+    margin: 125px 5px;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 40px;
+    height: 40px;
+}
+
+#botao4:hover{
+    transform: scale(1.1);
+    transition: 200ms;
+    box-shadow: 1px 1px 1px 1px
+}
+
+#botao5{
+    position: absolute;
+    background-color: gray;
+    border-radius: 10px;
+    transition: 200ms;
+    color: white;
+    margin: 125px 55px;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 40px;
+    height: 40px;
+}
+
+#botao5:hover{
+    transform: scale(1.1);
+    transition: 200ms;
+    box-shadow: 1px 1px 1px 1px
+}
+
+#botao6{
+    position: absolute;
+    background-color: gray;
+    border-radius: 10px;
+    transition: 200ms;
+    color: white;
+    margin: 125px 105px;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 40px;
+    height: 40px;
+}
+
+#botao6:hover{
+    transform: scale(1.1);
+    transition: 200ms;
+    box-shadow: 1px 1px 1px 1px
+}
+
+#botao7{
+    position: absolute;
+    background-color: gray;
+    border-radius: 10px;
+    transition: 200ms;
+    color: white;
+    margin: 175px 5px;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 40px;
+    height: 40px;
+}
+
+#botao7:hover{
+    transform: scale(1.1);
+    transition: 200ms;
+    box-shadow: 1px 1px 1px 1px
+}
+
+#botao8{
+    position: absolute;
+    background-color: gray;
+    border-radius: 10px;
+    transition: 200ms;
+    color: white;
+    margin: 175px 55px;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 40px;
+    height: 40px;
+}
+
+#botao8:hover{
+    transform: scale(1.1);
+    transition: 200ms;
+    box-shadow: 1px 1px 1px 1px
+}
+
+#botao9{
+    position: absolute;
+    background-color: gray;
+    border-radius: 10px;
+    transition: 200ms;
+    color: white;
+    margin: 175px 105px;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 40px;
+    height: 40px;
+}
+
+#botao9:hover{
+    transform: scale(1.1);
+    transition: 200ms;
+    box-shadow: 1px 1px 1px 1px
+}
+
+#botao0{
+    position: absolute;
+    background-color: gray;
+    border-radius: 10px;
+    transition: 200ms;
+    color: white;
+    margin: 225px 55px;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 40px;
+    height: 40px;
+}
+
+#botao0:hover{
+    transform: scale(1.1);
+    transition: 200ms;
+    box-shadow: 1px 1px 1px 1px
+}
+
+#netflix{
+    background-image:url("Netflix_icon.svg.png");
+    background-size: cover;
+    position: absolute;
+    border-radius: 10px;
+    margin: 225px 5px;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 40px;
+    height: 40px;
+}
+
+#netflix:hover{
+    transform: scale(1.1);
+    transition: 200ms;
+    box-shadow: 1px 1px 1px 1px
+}
+
+#netflixicon{
+    visibility: hidden;
+}
